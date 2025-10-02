@@ -1,5 +1,5 @@
 body.normal {
-  background: linear-gradient(135deg, #a8a77a, #d8d8d8);
+  background: linear-gradient(135deg, #1a2e5e, #d8d8d8);
 }
 
 body.fighting {
@@ -15,7 +15,7 @@ body.poison {
 }
 
 body.ground {
-  background: linear-gradient(135deg, #e2bf65, #dec177);
+  background: linear-gradient(135deg, #e2bf65, #280e65);
 }
 
 body.rock {

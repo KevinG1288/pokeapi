@@ -6,7 +6,8 @@ async function pokemon(id){
 
         let tipoPoke ="";
         for (let i = 0; i < data.types.length; i++){
-            tipoPoke += <span>${data.types[i].type.name} </span>
+           tipoPoke += `<span>${data.types[i].type.name} </span>`;
+
     }
 
     document.querySelector("body").classList.add  (data.types[0].type.name)
@@ -23,4 +24,3 @@ async function pokemon(id){
 ${tipoPoke}
     </section>`
 }
-pokemon(10)
