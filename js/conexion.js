@@ -27,7 +27,7 @@ async function General() {
   }
   home();
 }
-General ()
+
 
 
 async function FiltroConexion(Elfiltro){
